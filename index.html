@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body style="background-image:url(bg1.png); background-size: cover">
+	<!--0 локация будет заставка, главного героя побеждает босс, далее мы собираем команду и пытаемся победить босса -->
+	<div class="location0" >
+		<button class="loc3_exit" style="display:none;">sadsdf</button>
+	</div>
+	<div class="main">		
+		<div class="school">
+		</div>
+		<div  class="arena"> 
+		</div>
+		<div  class="mastery"> 
+		</div>
+		<img src="player.png" alt="" class="main_player">
+		<img src="player2.png" alt="" class="main_player2" style="display: none;">
+		<img src="player3.png" alt="" class="main_player3" style="display: none;">
+		<img src="player4.png" alt="" class="main_player4" style="display: none;">
+	</div>
+	<!--2 локация вопросы-->
+	<div class="location2" style="display:none;">
+		
+		<!--учитель-->
+		
+		<img src="player2.png" alt="" class="loc2_player2">
+		
+		<!--игрок на 2-ой локации-->
+		<img src="player.png" class="loc2_player">
+
+		<!--бабл с заданием учителя-->
+		<div class="loc2_talk" >
+			Ответь на мои вопросы если ты и в правду на нашей стороне. 
+		</div>
+		<!--варианты ответов1-->
+		<div class="loc2_variants_block">
+			 <div class="loc2_variants">оаоаоаоаоаоаоа</div>
+			 <div class="loc2_variants" style="margin-left: 150px;">Вариasdро</div>
+			 <div class="loc2_variants" style="margin-left: 300px; ">Вsdasdаз</div>
+			 <div class="loc2_variants" style="margin-top: 140px; ">Вариasdasdто</div>
+			 <div class="loc2_variants" style="margin-top: 140px; margin-left: 150px;">Варианasdово</div>
+			 <div class="loc2_pravilno" style="margin-top: 140px; margin-left: 300px;">Вариasdая руда</div>
+		</div>
+		<!--варианты ответов2-->
+		<div class="loc2_variants_block2">
+			 <div class="loc2_variants2">Вариант 1: Мясо</div>
+			 <div class="loc2_variants2" style="margin-left: 150px;">Вариант 2: Серебро</div>
+			 <div class="loc2_variants2" style="margin-left: 300px; ">Вариант 3: Алмаз</div>
+			 <div class="loc2_pravilno2" style="margin-top: 140px; ">Вариант 4: Золото</div>
+			 <div class="loc2_variants2" style="margin-top: 140px; margin-left: 150px;">Вариант 5: Олово</div>
+			 <div class="loc2_variants2" style="margin-top: 140px; margin-left: 300px;">Вариант 6: Железная руда</div>
+		</div>
+		<!--варианты ответов3-->
+		<div class="loc2_variants_block3">
+			 <div class="loc2_variants3">Вариант 1: Мясо</div>
+			 <div class="loc2_variants3" style="margin-left: 150px;">dаsdо</div>
+			 <div class="loc2_variants3" style="margin-left: 300px; ">Вddаз</div>
+			 <div class="loc2_variants3" style="margin-top: 140px; ">Вddото</div>
+			 <div class="loc2_pravilno3" style="margin-top: 140px; margin-left: 150px;">Вsdasdasdasdasdasdasdasdasdasdasdaово</div>
+			 <div class="loc2_variants3" style="margin-top: 140px; margin-left: 300px;">dа</div>
+		</div>
+	</div>
+	<!--3 локация камень ножницы бумага -->
+	<div class="location3" style="display: none;">
+		<div class="col-10 mx-auto text-center mt-5">
+	        <div class="row mt-5 py-5">
+	            <div class="col-6 py-5 text-light"style="background-color: ;">
+	                <h1 class="text-dark">Игрок 1</h1>
+	                <div class=" choice-player-1">
+
+	                </div>
+	                <p>Камень - A</p>
+	                <p>Ножницы - S</p>
+	                <p>Бумага - D</p>
+	            </div>
+	            <div class="col-6 py-5 text-light" style="background-color: ;">
+	                <h1 class="text-dark">Игрок 2</h1>
+	                <div class=" choice-player-2">
+	                </div>
+	                <p>Камень - J</p>
+	                <p>Ножницы - K</p>
+	                <p>Бумага - L</p>
+	            </div>
+	        </div>
+	        <h1 class="info text-light">Игрок 1 ходит!</h1>
+	    </div>
+	</div>
+	<!--4 локация найди вещь-->
+	<div class="location4" style="display: none;">
+		<button class="loc4_exit">sadsdf</button>
+		<img src="player4.png" alt="" class="loc4_player4">
+	</div>
+	<!--Босс типо Heartstone-->
+	<div class="locationbossfight" style="display: none;">
+		<button class="loc5_exit">sadsdf</button>
+	</div>
+<script src="script.js"></script>
+	
+</body>
+</html>
